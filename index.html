@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo de aplicaciones web con ASP.NET Core MVC</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Desarrollo de aplicaciones web con ASP.NET Core MVC</h1>
+        <h2 class="subtitle">Guía completa para desarrolladores</h2>
+        
+        <div class="row">
+            <div class="col-lg-8 content-area">
+                <section id="introduccion">
+                    <h2 class="section-title">Introducción</h2>
+                    <p>El desarrollo web moderno requiere frameworks robustos, escalables y seguros. ASP.NET Core se ha establecido como una de las opciones más potentes para la creación de aplicaciones web y APIs. Este blog técnico profundiza en ASP.NET Core MVC, proporcionando todo lo que necesitas para comenzar a desarrollar aplicaciones web profesionales con esta tecnología.</p>
+                </section>
+                
+                <section id="que-es">
+                    <h2 class="section-title">¿Qué es ASP.NET Core?</h2>
+                    <p>ASP.NET Core es un framework de desarrollo web de código abierto, multiplataforma y de alto rendimiento creado por Microsoft. A diferencia de su predecesor, ASP.NET Framework, ASP.NET Core está diseñado para ejecutarse no solo en Windows sino también en macOS y Linux.</p>
+                    <p>Sus características principales incluyen:</p>
+                    <ul>
+                        <li>Arquitectura modular y ligera</li>
+                        <li>Soporte para múltiples plataformas</li>
+                        <li>Alto rendimiento y escalabilidad</li>
+                        <li>Inyección de dependencias integrada</li>
+                        <li>Configuración unificada</li>
+                    </ul>
+                </section>
+                
+                <section id="caracteristicas">
+                    <h2 class="section-title">Características principales</h2>
+                    <p>ASP.NET Core MVC proporciona una arquitectura basada en el patrón Modelo-Vista-Controlador, permitiendo una clara separación de responsabilidades en tu aplicación:</p>
+                    <ul>
+                        <li><strong>Modelos:</strong> Representan los datos de la aplicación y la lógica de negocio que determina cómo se pueden manipular.</li>
+                        <li><strong>Vistas:</strong> Muestran la interfaz de usuario y presentan los datos a los usuarios.</li>
+                        <li><strong>Controladores:</strong> Manejan las interacciones del usuario, trabajando con el modelo y seleccionando una vista para mostrar.</li>
+                    </ul>
+                    <p>Además, ofrece:</p>
+                    <ul>
+                        <li>Sistema de routing flexible</li>
+                        <li>Motor de vistas Razor potente y fácil de aprender</li>
+                        <li>Validación del lado del cliente y del servidor</li>
+                        <li>API web integrada y soporte para JSON</li>
+                        <li>Pruebas unitarias simplificadas</li>
+                    </ul>
+                </section>
+                
+                <section id="ventajas">
+                    <h2 class="section-title">Ventajas y casos de uso</h2>
+                    <p>Entre las principales ventajas de utilizar ASP.NET Core MVC encontramos:</p>
+                    <ul>
+                        <li>Alto rendimiento comparado con otros frameworks</li>
+                        <li>Seguridad mejorada y actualizaciones regulares</li>
+                        <li>Soporte para contenedores Docker</li>
+                        <li>Excelente integración con Azure y otros servicios en la nube</li>
+                        <li>Gran comunidad y documentación extensa</li>
+                    </ul>
+                    <p>Los casos de uso ideales incluyen:</p>
+                    <ul>
+                        <li>Aplicaciones empresariales complejas</li>
+                        <li>Servicios RESTful y microservicios</li>
+                        <li>Aplicaciones en la nube</li>
+                        <li>Portales web que requieren alto rendimiento</li>
+                    </ul>
+                </section>
+                
+                <section id="requisitos">
+                    <h2 class="section-title">Requisitos del sistema</h2>
+                    <p>Para comenzar a desarrollar con ASP.NET Core MVC necesitarás:</p>
+                    <ul>
+                        <li>.NET SDK (versión 6.0 o superior recomendada)</li>
+                        <li>Un IDE como Visual Studio, Visual Studio Code o JetBrains Rider</li>
+                        <li>Conocimientos básicos de C# y HTML</li>
+                        <li>Git para control de versiones (opcional pero recomendado)</li>
+                    </ul>
+                </section>
+                
+                <section id="instalacion">
+                    <h2 class="section-title">Instalación paso a paso</h2>
+                    <p>Sigue estos pasos para configurar tu entorno de desarrollo:</p>
+                    <ol>
+                        <li>Descarga e instala el .NET SDK desde <a href="#">el sitio oficial de Microsoft</a></li>
+                        <li>Instala Visual Studio 2022 o Visual Studio Code con la extensión C#</li>
+                        <li>Abre una terminal y verifica la instalación con el comando: <code>dotnet --version</code></li>
+                        <li>Crea tu primer proyecto con: <code>dotnet new mvc -o MiAplicacionMVC</code></li>
+                        <li>Navega al directorio del proyecto: <code>cd MiAplicacionMVC</code></li>
+                        <li>Ejecuta la aplicación: <code>dotnet run</code></li>
+                    </ol>
+                    <p>¡Y listo! Tu aplicación estará funcionando en <code>https://localhost:5001</code>.</p>
+                </section>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="sidebar-container">
+                    <div class="sidebar">
+                        <h3>Contenido</h3>
+                        <ul>
+                            <li><a href="#introduccion">Introducción</a></li>
+                            <li><a href="#que-es">¿Qué es ASP.NET Core?</a></li>
+                            <li><a href="#caracteristicas">Características principales</a></li>
+                            <li><a href="#ventajas">Ventajas y casos de uso</a></li>
+                            <li><a href="#requisitos">Requisitos del sistema</a></li>
+                            <li><a href="#instalacion">Instalación paso a paso</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
